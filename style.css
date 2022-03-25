@@ -6,7 +6,6 @@ body{
 .heading {
     display: flex;
     justify-content: center;
-
 }
 main {
 
@@ -34,7 +33,6 @@ main::before {
     bottom: 0;
     box-shadow: inset 0 0 2000px rgba(243, 237, 237, 0.5);
     filter: blur(10px);
-
 }
 
 h1{
@@ -54,7 +52,6 @@ h1{
 }
 
 .frosted-glass-effectTwo {
-
     width: 12rem;
     height: 14rem;
     max-width: 10rem;
@@ -72,7 +69,7 @@ h1{
 .frosted-glass-effectTwo:before {
     content: "";
     position: absolute;
-	background: 0 / cover fixed;
+    background: 0 / cover fixed;
     z-index: -1;
     top: 0;
     left: 0;
@@ -80,7 +77,6 @@ h1{
     bottom: 0;
     box-shadow: inset 0 0 2000px rgba(248, 248, 248, 1);
     filter: blur(1px);
-
 }
 .block {
     display: flex;
@@ -128,23 +124,19 @@ img {
 }
 
 @media all and (max-width: 800px){
-
-
-   
-    h1{
+h1{
     font-size: 36px;
 }
+	
 h3 {
-
     font-size: 25px;
 margin: 30px;
-    }
+}
 
 h4 {
     font-size: 80px;
     margin-bottom: 0px;
     margin-top: -120px;;
-
 }
 button {
     border-radius: 40px;
@@ -154,7 +146,6 @@ button {
     margin-top: 50px;
 }
 .frosted-glass-effectTwo {
-
     width: 10rem;
     height: 12rem;
     max-width: 10rem;
@@ -167,8 +158,4 @@ button {
     z-index: -1;
     background: hsla(0,0%,100%,.25) border-box;
     overflow: hidden;
-}
-
-}
-
-
+}}
